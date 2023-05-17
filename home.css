@@ -1,0 +1,175 @@
+
+
+
+a:link{
+    color: dimgrey;
+    font-size: 15px;
+}
+a:visited{color: dimgrey;}
+
+a:hover{color: #ff6666}
+
+a:active{color:red;}
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+
+body{
+    cursor: url(target.png) ,crosshair ;
+   padding: 60px;
+    display: flex;
+    background-color: black;
+    height: 100vh;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 60px
+   
+
+}
+
+.container{
+  display: grid;
+  height:100vh;
+  background-color: black;
+  grid-template-columns:1fr ;
+/*  grid-template-rows:550px 200px ;*/
+  grid-template-areas:
+  "nav"
+  "name"
+  "quote";
+ }
+ .nav{   
+font-family: 'Orbitron', sans-serif;
+
+   top: 1;
+
+  grid-area: nav;
+ }
+.name{
+  font-family: 'Orbitron', sans-serif;
+
+    font-size: 60px;
+    text-align: center;
+color: whitesmoke;
+    
+ 
+  grid-area: name;
+ }
+.quote{
+color: dimgrey;
+    font-size: 30px;
+    text-align: center;
+  grid-area: quote;
+ 
+ } 
+
+
+
+
+
+
+@media (min-width:800px){
+ .container{
+  display: grid;
+  height:100vh;
+  background-color: black;
+  grid-template-columns:1fr  1fr;
+  grid-template-rows: 1fr 1fr 1fr ;
+  grid-template-areas:
+  "nav nav "
+  "name name "
+  "quote quote "
+  ;}
+
+  .nav{      
+   font-family: 'Orbitron', sans-serif;
+
+  grid-area: nav;
+ }
+.name{
+ font-family: 'Orbitron', sans-serif;
+    font-size: 70px;
+ text-align: center;
+  grid-area: name;
+ }
+.quote{
+  font-family: 'Orbitron', sans-serif;
+    text-align: center;
+
+  grid-area: quote;
+ }
+
+a:link{
+    color: dimgrey;
+    font-size: 17px;
+}
+a:visited{color: dimgrey;}
+
+a:hover{color: #ff6666}
+
+a:active{color:red;}
+
+
+
+
+
+@media (min-width:1281px){
+ .container{
+  display: grid;
+  height:100vh;
+  background-color: black;
+  grid-template-columns:  1fr 1fr 1fr;
+  grid-template-rows:  1fr 1fr 1fr;
+  grid-template-areas:
+  "nav nav nav"
+  "name name name"
+  "quote quote quote"
+
+  ;
+ }
+ .nav{      
+ font-family: 'Orbitron', sans-serif;
+
+
+  top: 1;
+  grid-area: nav;
+ }
+.name{
+   font-family: 'Orbitron', sans-serif;
+    font-size: 100px;
+ text-align: center;
+  grid-area: name;
+ }
+.quote{
+  font-family: 'Orbitron', sans-serif;
+    text-align: center;
+  grid-area: quote;
+ }
+
+a:link{
+    color: dimgrey;
+    font-size: 20px;
+}
+a:visited{color: dimgrey;}
+
+a:hover{color: #ff6666}
+
+a:active{color:red;}
+
+
+

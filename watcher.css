@@ -1,0 +1,183 @@
+body{
+  cursor: url(target.png) ,crosshair ;
+   padding: 60px;
+    display: flex;
+    background-color: black;
+    height: 100vh;
+    justify-content: center;
+    align-items: flex-end;
+    
+
+}
+
+
+
+
+.nava{font-size: 20px;
+    padding: 10px;
+    color: dimgrey;
+ }
+
+
+ a:link{
+    color: dimgrey;
+    font-size: 15px;
+}
+a:visited{color: dimgrey;}
+
+a:hover{color: #ff6666}
+
+a:active{color:red;}
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+
+.container{
+  display: grid;
+  height:100vh;
+  background-color: black;
+  grid-template-columns:1fr;
+ /* grid-template-rows: 200px ;*/
+  column-gap: 40px;
+  grid-template-areas:
+  "nav"
+  "profile"
+  "text"
+  ;
+ }
+
+ .nav{
+
+ font-family: 'Orbitron', sans-serif;
+   top: 1;
+  grid-area: nav;
+ }
+
+.profile{
+  
+
+  grid-area: profile;
+ }
+ .text{ 
+  font-size: 20px;
+ 
+color: dimgrey;
+  grid-area: text;
+ }
+
+.quote{
+  color: grey;
+  font-size: 20px;
+}
+
+@media (min-width:800px){
+ .container{
+  display: grid;
+  height:100vh;
+  background-color: black;
+  grid-template-columns:1fr;
+grid-template-rows: 100px;
+  grid-template-areas:
+  "nav nav "
+  "profile text"
+  ;
+ }
+.nav{
+ font-family: 'Orbitron', sans-serif;
+   top: 1;
+
+
+  grid-area: nav;
+ }
+
+.profile{
+ 
+width: 600px;
+  grid-area: profile;
+ }
+ .text{
+  font-size: 20px;
+
+color: dimgrey;
+  grid-area: text;
+ }
+ .quote{
+  color: grey;
+  font-size:15px;
+}
+
+
+ a:link{
+    color: dimgrey;
+    font-size: 17px;
+}
+a:visited{color: dimgrey;}
+
+a:hover{color: #ff6666}
+
+a:active{color:red;}
+
+
+
+
+@media (min-width:1281px){
+ .container{
+  display: grid;
+  height:100vh;
+  background-color: black;
+  grid-template-columns:1fr;
+  grid-template-rows: 100px;
+  grid-template-areas:
+  "nav nav "
+  "profile text"
+  ;
+ }
+
+ .nav{
+ font-family: 'Orbitron', sans-serif;
+   top: 1;
+
+
+  grid-area: nav;
+ }
+
+.profile{
+ 
+width: 700px;
+  grid-area: profile;
+ }
+ .text{
+  font-size: 30px;
+
+color: dimgrey;
+  grid-area: text;
+ }
+ .quote{
+  color: grey;
+  font-size: 17px;
+}
+ a:link{
+    color: dimgrey;
+    font-size: 20px;
+}
+a:visited{color: dimgrey;}
+
+a:hover{color: #ff6666}
+
+a:active{color:red;}
+}

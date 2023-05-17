@@ -1,0 +1,195 @@
+
+
+
+  a{font-size: 20px;
+    padding: 10px;
+    color: dimgrey;
+ }
+
+a:link{
+    color: dimgrey;
+    font-size: 15px;
+}
+a:visited{color: dimgrey;}
+
+a:hover{color: #ff6666}
+
+a:active{color:red;}
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+body{
+	cursor: url(target.png) ,crosshair ;
+   padding: 60px;
+  
+    background-color: black;
+    height: 100vh;
+    justify-content: center;
+    align-items: flex-end;
+    cursor:;
+
+}
+
+iframe{
+  width:450px;
+  height:700px;
+  text-align: center;
+}
+.container{
+  display: grid;
+  margin: 0 auto
+  height:100vh;
+  background-color: black;
+  grid-template-columns:1fr;
+/*  grid-template-rows: 100px 600px 100px;*/
+  grid-template-areas:
+  "nav"
+  "map"
+  "foot"
+  ;
+ }
+
+ .nav{ 
+   font-family: 'Orbitron', sans-serif;   
+
+   top: 1;
+
+  grid-area: nav;
+ }
+.map{
+  
+ text-align: center;
+  grid-area: map;
+ }
+ .footer{
+ 	color: dimgrey;
+  font-size: 25px;
+text-align: center;
+  grid-area: foot;
+ 
+ }
+
+
+
+@media (min-width:800px){
+ .container{
+  display: grid;
+  margin: 0 auto
+  height:100vh;
+  background-color: black;
+  grid-template-columns:1fr ;
+ 
+  grid-template-areas:
+  "nav"
+  "map"
+  "foot"
+  ;
+ }
+
+iframe{
+  height:900px;
+  width:1100px;
+  text-align: center;
+}
+ .nav{
+}
+
+font-family: 'Orbitron', sans-serif;
+  top: 1;
+  grid-area: nav;
+ }
+.map{
+  width: 300px
+  text-align: center;
+  grid-area: map;
+ }
+ .footer{
+  color: dimgrey;
+  grid-area: foot;
+  text-align: center;
+ 
+ }
+
+a:link{
+    color: dimgrey;
+    font-size: 17px;
+}
+a:visited{color: dimgrey;}
+
+a:hover{color: #ff6666}
+
+a:active{color:red;}
+
+}
+
+ 
+
+@media (min-width:1281px){
+ .container{
+  display: grid;
+  margin: 0 auto
+  height:100vh;
+  background-color: black;
+  grid-template-columns:1fr  1fr 1fr;
+ 
+  grid-template-areas:
+  "nav nav nav"
+  "map map map"
+  "foot foot foot"
+  ;
+ }
+
+iframe{
+  height:900px;
+  width:900px;
+}
+ .nav{
+  font-family: 'Orbitron', sans-serif;
+  
+
+  top: 1;
+  grid-area: nav;
+ }
+.map{
+
+  
+  grid-area: map;
+ }
+ .footer{
+ 	color: dimgrey;
+  grid-area: foot;
+ 
+ }
+
+a:link{
+    color: dimgrey;
+    font-size: 20px;
+}
+a:visited{color: dimgrey;}
+
+a:hover{color: #ff6666}
+
+a:active{color:red;}
+
+}
+
+ 
+
+
+
+
