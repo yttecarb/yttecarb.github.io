@@ -70,8 +70,8 @@ text-align: center;
   height:100vh;
   background-color: black;
   grid-template-columns:1fr;
-  grid-template-rows: auto ;
-   grid-gap: 20px;
+  grid-template-rows: 200 ;
+   grid-gap: 40px;
   grid-template-areas:
   "nav"
   "frame"
