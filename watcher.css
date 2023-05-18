@@ -1,7 +1,7 @@
 body{
   cursor: url(target.png) ,crosshair ;
    padding: 60px;
-   display:flex;
+    display: flex;
     background-color: black;
     height: 100vh;
     justify-content: center;
@@ -74,7 +74,6 @@ a:active {
   grid-area: profile;
  }
  .text{ 
-   text-align: center;
   font-size: 20px;
  
 color: dimgrey;
