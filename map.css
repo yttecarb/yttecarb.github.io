@@ -89,7 +89,7 @@ text-align: center;
 @media (min-width:800px){
  .container{
   display: grid;
-  margin: 0 auto;
+  margin: 0 auto
   height:100vh;
   background-color: black;
   grid-template-columns:1fr ;
@@ -142,7 +142,7 @@ a:active{color:red;}
 @media (min-width:1281px){
  .container{
   display: grid;
-  margin: 0 auto;
+  margin: 0 auto
   height:100vh;
   background-color: black;
   grid-template-columns:1fr  1fr 1fr;
