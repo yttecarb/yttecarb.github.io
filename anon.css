@@ -64,7 +64,7 @@ a:active {
 text-align: center;
 }
 
-
+@media (min-width:480px){
  .container{
   display: grid;
   height:100vh;
@@ -146,7 +146,7 @@ a:hover{color: #ff6666}
 
 a:active{color:red;}
 
-
+}
 
 @media (min-width:800px){
  .container{
